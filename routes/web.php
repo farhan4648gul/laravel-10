@@ -14,3 +14,7 @@ Route::get('/contact', [ContactController::class, 'index']);
 
 
 Route::get ('/contact/store', [TestController::class, 'store']); 
+
+Route::get('/contact/createSeeker', [TestController::class, 'createSeeker'])->name('create.seeker');  
+
+
